@@ -1,0 +1,109 @@
+# Reading E:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do top_calc_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying E:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {E:/altera/UFSC/AULA5/Decod7seg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Decod7seg
+# -- Compiling architecture decod of Decod7seg
+# vcom -93 -work work {E:/altera/UFSC/AULA5/mux4x1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux4x1
+# -- Compiling architecture circuito of mux4x1
+# vcom -93 -work work {E:/altera/UFSC/AULA5/c2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity C2
+# -- Compiling architecture circuito of C2
+# vcom -93 -work work {E:/altera/UFSC/AULA5/c1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity C1
+# -- Compiling architecture circuito of C1
+# vcom -93 -work work {E:/altera/UFSC/AULA5/c3.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity C3
+# -- Compiling architecture circuito of C3
+# vcom -93 -work work {E:/altera/UFSC/AULA5/c4.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity C4
+# -- Compiling architecture circuito of C4
+# vcom -93 -work work {E:/altera/UFSC/AULA5/top_calc.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity top_calc
+# -- Compiling architecture topo_stru of top_calc
+# 
+vsim work.top_calc
+# vsim work.top_calc 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.top_calc(topo_stru)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.c1(circuito)
+# Loading work.c2(circuito)
+# Loading work.c3(circuito)
+# Loading work.c4(circuito)
+# Loading work.mux4x1(circuito)
+# Loading work.decod7seg(decod)
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_calc/L0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_calc/L0
+add wave  \
+sim:/top_calc/SW(9) \
+sim:/top_calc/SW(8) \
+sim:/top_calc/SW(7) \
+sim:/top_calc/SW(6) \
+sim:/top_calc/SW(5) \
+sim:/top_calc/SW(4) \
+sim:/top_calc/SW(3) \
+sim:/top_calc/SW(2) \
+sim:/top_calc/SW(1) \
+sim:/top_calc/SW(0)
+run
+add wave  \
+sim:/top_calc/LEDR \
+sim:/top_calc/HEX0 \
+sim:/top_calc/F4 \
+sim:/top_calc/F3 \
+sim:/top_calc/F2 \
+sim:/top_calc/F1 \
+sim:/top_calc/F
+add wave -position insertpoint  \
+sim:/top_calc/SW(8)
+add dataflow  \
+sim:/top_calc/SW(6)
+# WARNING: No extended dataflow license exists
+# No drivers or ports for SW[6]

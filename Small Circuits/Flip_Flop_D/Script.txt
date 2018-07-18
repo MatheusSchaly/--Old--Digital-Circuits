@@ -1,0 +1,3 @@
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/flip_flop_d/Clock 0 0, 1 {12 ps} -r 25
+force -freeze sim:/flip_flop_d/B 0 0, 1 {25 ps} -r 50

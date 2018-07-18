@@ -1,0 +1,200 @@
+Flow report for top_calc
+Tue Jul 10 16:54:50 2018
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------+
+; Flow Summary                                                                ;
++---------------------------+-------------------------------------------------+
+; Flow Status               ; Successful - Tue Jul 10 16:54:50 2018           ;
+; Quartus II 64-Bit Version ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name             ; top_calc                                        ;
+; Top-level Entity Name     ; top_calc                                        ;
+; Family                    ; Cyclone V                                       ;
++---------------------------+-------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 07/10/2018 15:46:22 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; top_calc            ;
++-------------------+---------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                   ;
++---------------------------------------------+---------------------------------------+---------------+-------------+--------------------------------+
+; Assignment Name                             ; Value                                 ; Default Value ; Entity Name ; Section Id                     ;
++---------------------------------------------+---------------------------------------+---------------+-------------+--------------------------------+
+; ABSORB_PATHS_FROM_OUTPUTS_TO_INPUTS         ; On                                    ; --            ; --          ; hard_block:auto_generated_inst ;
+; ALLOW_MULTIPLE_PERSONAS                     ; Off                                   ; --            ; --          ; hard_block:auto_generated_inst ;
+; COMPILER_SIGNATURE_ID                       ; 273406400639900.153124406100980       ; --            ; --          ; --                             ;
+; CROSS_BOUNDARY_OPTIMIZATIONS                ; Off                                   ; --            ; --          ; hard_block:auto_generated_inst ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST             ; on                                    ; --            ; --          ; eda_simulation                 ;
+; EDA_OUTPUT_DATA_FORMAT                      ; Verilog Hdl                           ; --            ; --          ; eda_simulation                 ;
+; EDA_SIMULATION_TOOL                         ; ModelSim-Altera (Verilog)             ; <None>        ; --          ; --                             ;
+; INPUT_PERSONA                               ;                                       ; --            ; --          ; Top                            ;
+; INPUT_PERSONA                               ;                                       ; --            ; --          ; hard_block:auto_generated_inst ;
+; MAX_CORE_JUNCTION_TEMP                      ; 85                                    ; --            ; --          ; --                             ;
+; MERGE_EQUIVALENT_BIDIRS                     ; On                                    ; --            ; --          ; hard_block:auto_generated_inst ;
+; MERGE_EQUIVALENT_INPUTS                     ; On                                    ; --            ; --          ; hard_block:auto_generated_inst ;
+; MIN_CORE_JUNCTION_TEMP                      ; 0                                     ; --            ; --          ; --                             ;
+; PARTITION_ASD_REGION_ID                     ; 1                                     ; --            ; --          ; hard_block:auto_generated_inst ;
+; PARTITION_COLOR                             ; 16764057                              ; --            ; --          ; Top                            ;
+; PARTITION_COLOR                             ; 39423                                 ; --            ; --          ; hard_block:auto_generated_inst ;
+; PARTITION_EXTRACT_HARD_BLOCK_NODES          ; On                                    ; --            ; --          ; hard_block:auto_generated_inst ;
+; PARTITION_FITTER_PRESERVATION_LEVEL         ; PLACEMENT_AND_ROUTING                 ; --            ; --          ; Top                            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL         ; NETLIST_ONLY                          ; --            ; --          ; hard_block:auto_generated_inst ;
+; PARTITION_IGNORE_SOURCE_FILE_CHANGES        ; Off                                   ; --            ; --          ; hard_block:auto_generated_inst ;
+; PARTITION_IMPORT_ASSIGNMENTS                ; On                                    ; --            ; --          ; hard_block:auto_generated_inst ;
+; PARTITION_IMPORT_EXISTING_ASSIGNMENTS       ; REPLACE_CONFLICTING                   ; --            ; --          ; hard_block:auto_generated_inst ;
+; PARTITION_IMPORT_EXISTING_LOGICLOCK_REGIONS ; UPDATE_CONFLICTING                    ; --            ; --          ; hard_block:auto_generated_inst ;
+; PARTITION_IMPORT_FILE                       ;                                       ; --            ; --          ; Top                            ;
+; PARTITION_IMPORT_FILE                       ;                                       ; --            ; --          ; hard_block:auto_generated_inst ;
+; PARTITION_IMPORT_PIN_ASSIGNMENTS            ; On                                    ; --            ; --          ; hard_block:auto_generated_inst ;
+; PARTITION_IMPORT_PROMOTE_ASSIGNMENTS        ; On                                    ; --            ; --          ; hard_block:auto_generated_inst ;
+; PARTITION_LAST_IMPORTED_FILE                ;                                       ; --            ; --          ; Top                            ;
+; PARTITION_LAST_IMPORTED_FILE                ;                                       ; --            ; --          ; hard_block:auto_generated_inst ;
+; PARTITION_NETLIST_TYPE                      ; SOURCE                                ; --            ; --          ; Top                            ;
+; PARTITION_NETLIST_TYPE                      ; SOURCE                                ; --            ; --          ; hard_block:auto_generated_inst ;
+; PARTITION_PRESERVE_HIGH_SPEED_TILES         ; On                                    ; --            ; --          ; hard_block:auto_generated_inst ;
+; PARTITION_TYPE                              ; HARD_BLOCK_PARTITION                  ; --            ; --          ; hard_block:auto_generated_inst ;
+; POWER_BOARD_THERMAL_MODEL                   ; None (CONSERVATIVE)                   ; --            ; --          ; --                             ;
+; POWER_PRESET_COOLING_SOLUTION               ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --          ; --                             ;
+; PROJECT_OUTPUT_DIRECTORY                    ; output_files                          ; --            ; --          ; --                             ;
+; PROPAGATE_CONSTANTS_ON_INPUTS               ; On                                    ; --            ; --          ; hard_block:auto_generated_inst ;
+; PROPAGATE_INVERSIONS_ON_INPUTS              ; On                                    ; --            ; --          ; hard_block:auto_generated_inst ;
+; REMOVE_LOGIC_ON_UNCONNECTED_OUTPUTS         ; On                                    ; --            ; --          ; hard_block:auto_generated_inst ;
++---------------------------------------------+---------------------------------------+---------------+-------------+--------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                      ;
++--------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name        ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++--------------------+--------------+-------------------------+---------------------+------------------------------------+
+; EDA Netlist Writer ; 00:00:01     ; 1.0                     ; 4591 MB             ; 00:00:01                           ;
+; EDA Netlist Writer ; 00:00:01     ; 1.0                     ; 4606 MB             ; 00:00:01                           ;
+; EDA Netlist Writer ; 00:00:03     ; 1.0                     ; 4590 MB             ; 00:00:02                           ;
+; EDA Netlist Writer ; 00:00:02     ; 1.0                     ; 4606 MB             ; 00:00:02                           ;
+; EDA Netlist Writer ; 00:00:03     ; 1.0                     ; 4590 MB             ; 00:00:01                           ;
+; EDA Netlist Writer ; 00:00:01     ; 1.0                     ; 4591 MB             ; 00:00:01                           ;
+; EDA Netlist Writer ; 00:00:02     ; 1.0                     ; 4591 MB             ; 00:00:01                           ;
+; EDA Netlist Writer ; 00:00:02     ; 1.0                     ; 4591 MB             ; 00:00:01                           ;
+; EDA Netlist Writer ; 00:00:01     ; 1.0                     ; 4591 MB             ; 00:00:01                           ;
+; EDA Netlist Writer ; 00:00:02     ; 1.0                     ; 4591 MB             ; 00:00:01                           ;
+; EDA Netlist Writer ; 00:00:01     ; 1.0                     ; 4591 MB             ; 00:00:01                           ;
+; EDA Netlist Writer ; 00:00:01     ; 1.0                     ; 4591 MB             ; 00:00:01                           ;
+; EDA Netlist Writer ; 00:00:01     ; 1.0                     ; 4591 MB             ; 00:00:01                           ;
+; EDA Netlist Writer ; 00:00:01     ; 1.0                     ; 4591 MB             ; 00:00:01                           ;
+; EDA Netlist Writer ; 00:00:02     ; 1.0                     ; 4591 MB             ; 00:00:01                           ;
+; EDA Netlist Writer ; 00:00:02     ; 1.0                     ; 4591 MB             ; 00:00:01                           ;
+; EDA Netlist Writer ; 00:00:01     ; 1.0                     ; 4591 MB             ; 00:00:01                           ;
+; EDA Netlist Writer ; 00:00:01     ; 1.0                     ; 4591 MB             ; 00:00:01                           ;
+; EDA Netlist Writer ; 00:00:01     ; 1.0                     ; 4591 MB             ; 00:00:01                           ;
+; EDA Netlist Writer ; 00:00:01     ; 1.0                     ; 4591 MB             ; 00:00:01                           ;
+; EDA Netlist Writer ; 00:00:02     ; 1.0                     ; 4591 MB             ; 00:00:01                           ;
+; EDA Netlist Writer ; 00:00:01     ; 1.0                     ; 4591 MB             ; 00:00:01                           ;
+; EDA Netlist Writer ; 00:00:02     ; 1.0                     ; 4591 MB             ; 00:00:01                           ;
+; Total              ; 00:00:35     ; --                      ; --                  ; 00:00:25                           ;
++--------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++---------------------------------------------------------------------------------+
+; Flow OS Summary                                                                 ;
++--------------------+------------------+-----------+------------+----------------+
+; Module Name        ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++--------------------+------------------+-----------+------------+----------------+
+; EDA Netlist Writer ; DESKTOP-7KPFF0U  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer ; DESKTOP-7KPFF0U  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer ; DESKTOP-7KPFF0U  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer ; DESKTOP-7KPFF0U  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer ; DESKTOP-7KPFF0U  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer ; DESKTOP-7KPFF0U  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer ; DESKTOP-7KPFF0U  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer ; DESKTOP-7KPFF0U  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer ; DESKTOP-7KPFF0U  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer ; DESKTOP-7KPFF0U  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer ; DESKTOP-7KPFF0U  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer ; DESKTOP-7KPFF0U  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer ; DESKTOP-7KPFF0U  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer ; DESKTOP-7KPFF0U  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer ; DESKTOP-7KPFF0U  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer ; DESKTOP-7KPFF0U  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer ; DESKTOP-7KPFF0U  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer ; DESKTOP-7KPFF0U  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer ; DESKTOP-7KPFF0U  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer ; DESKTOP-7KPFF0U  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer ; DESKTOP-7KPFF0U  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer ; DESKTOP-7KPFF0U  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer ; DESKTOP-7KPFF0U  ; Windows 7 ; 6.2        ; x86_64         ;
++--------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog top_calc -c top_calc --vector_source=E:/altera/UFSC/AULA5/Waveform_PDF_Example.vwf --testbench_file=./simulation/qsim/top_calc.vt
+quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog top_calc -c top_calc
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog top_calc -c top_calc --vector_source=E:/altera/UFSC/AULA5/Waveform_PDF_Example.vwf --testbench_file=./simulation/qsim/top_calc.vt
+quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog top_calc -c top_calc
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog top_calc -c top_calc --vector_source=E:/altera/UFSC/AULA5/Waveform_PDF_Example.vwf --testbench_file=./simulation/qsim/top_calc.vt
+quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog top_calc -c top_calc
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog top_calc -c top_calc --vector_source=E:/altera/UFSC/AULA5/Waveform_PDF_Example.vwf --testbench_file=./simulation/qsim/top_calc.vt
+quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog top_calc -c top_calc
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog top_calc -c top_calc --vector_source=E:/altera/UFSC/AULA5/Waveform_PDF_Example.vwf --testbench_file=./simulation/qsim/top_calc.vt
+quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog top_calc -c top_calc
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog top_calc -c top_calc --vector_source=E:/altera/UFSC/AULA5/Waveform_PDF_Example.vwf --testbench_file=./simulation/qsim/top_calc.vt
+quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog top_calc -c top_calc
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog top_calc -c top_calc --vector_source=E:/altera/UFSC/AULA5/Waveform_PDF_Example_Easier_Writing.vwf --testbench_file=./simulation/qsim/top_calc.vt
+quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog top_calc -c top_calc
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog top_calc -c top_calc --vector_source=E:/altera/UFSC/AULA5/Waveform_PDF_Example_Easier_Writing.vwf --testbench_file=./simulation/qsim/top_calc.vt
+quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog top_calc -c top_calc
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog top_calc -c top_calc --vector_source=E:/altera/UFSC/AULA5/Waveform_PDF_Example_Easier_Writing.vwf --testbench_file=./simulation/qsim/top_calc.vt
+quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog top_calc -c top_calc
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog top_calc -c top_calc --vector_source=E:/altera/UFSC/AULA5/Waveform_PDF_Example_Easier_Writing.vwf --testbench_file=./simulation/qsim/top_calc.vt
+quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog top_calc -c top_calc
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog top_calc -c top_calc --vector_source=E:/altera/UFSC/AULA5/Waveform_PDF_Example_Easier_Writing.vwf --testbench_file=./simulation/qsim/top_calc.vt
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog top_calc -c top_calc --vector_source=E:/altera/UFSC/AULA5/Waveform_PDF_Example_Easier_Writing.vwf --testbench_file=./simulation/qsim/top_calc.vt
+quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog top_calc -c top_calc
+
+
+

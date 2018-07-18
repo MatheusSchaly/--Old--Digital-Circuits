@@ -1,0 +1,33 @@
+# Reading E:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Half_Adder_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying E:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {E:/altera/Small Circuits/Half_Adder/Half_Adder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Half_Adder
+# -- Compiling architecture Half_Adder_Arch of Half_Adder
+# 
+vsim work.half_adder
+# vsim work.half_adder 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.half_adder(half_adder_arch)
+add wave -position end  sim:/half_adder/A
+add wave -position end  sim:/half_adder/B
+add wave -position end  sim:/half_adder/Cout
+add wave -position end  sim:/half_adder/Sum
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/half_adder/B 1 0, 0 {25 ps} -r 50
+force -freeze sim:/half_adder/A 1 0, 0 {50 ps} -r 100

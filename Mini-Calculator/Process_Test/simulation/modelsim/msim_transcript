@@ -1,0 +1,85 @@
+# Reading E:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Process_Test_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying E:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {E:/altera/UFSC/Process_Test/Process_Test.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Process_Test
+# -- Compiling architecture Process_Arch of Process_Test
+# 
+vsim work.process_test
+# vsim work.process_test 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.process_test(process_arch)
+add wave -position insertpoint  \
+sim:/process_test/Clock
+add wave -position insertpoint  \
+sim:/process_test/Result
+run
+run
+force -freeze sim:/process_test/Result 1 0
+run
+force -freeze sim:/process_test/Result 1 0, 0 {50 ps} -r 100
+force -freeze sim:/process_test/Clock 1 0, 0 {50 ps} -r 100
+run
+run
+run
+add wave -position end  sim:/process_test/Result
+add wave -position end  sim:/process_test/Clock
+# WARNING: No extended dataflow license exists
+# WARNING: No extended dataflow license exists
+step
+step
+step
+step
+step
+# Next activity is in 50 ps.
+step
+step
+step
+step
+step
+# Next activity is in 50 ps.
+step
+step
+step
+step
+step
+# Next activity is in 50 ps.
+step
+step
+step
+step
+step
+# Next activity is in 50 ps.
+step
+step
+step
+step
+step
+# Next activity is in 50 ps.
+step
+step
+step
+step
+step
+# Next activity is in 50 ps.
+step
+step
+step
+step
+step
+# Next activity is in 50 ps.

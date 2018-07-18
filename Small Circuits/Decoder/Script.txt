@@ -1,0 +1,17 @@
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/decoder/Binary 0000 0
+force -freeze sim:/decoder/Binary 0001 100
+force -freeze sim:/decoder/Binary 0010 200
+force -freeze sim:/decoder/Binary 0011 300
+force -freeze sim:/decoder/Binary 0100 400
+force -freeze sim:/decoder/Binary 0101 500
+force -freeze sim:/decoder/Binary 0110 600
+force -freeze sim:/decoder/Binary 0111 700
+force -freeze sim:/decoder/Binary 1000 800
+force -freeze sim:/decoder/Binary 1001 900
+force -freeze sim:/decoder/Binary 1010 1000
+force -freeze sim:/decoder/Binary 1011 1100
+force -freeze sim:/decoder/Binary 1100 1200
+force -freeze sim:/decoder/Binary 1101 1300
+force -freeze sim:/decoder/Binary 1110 1400
+force -freeze sim:/decoder/Binary 1111 1500

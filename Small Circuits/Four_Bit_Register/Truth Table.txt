@@ -1,0 +1,1 @@
+Similar to the Flip_Flop_D_Reset_Enable truth table. But instead of storing only one bit, stores four bits. Use Reset = '0' to reset the four bits. Use Enable = '1' to store the bits in D. At every Clock, the command will be executed. Q is the output.

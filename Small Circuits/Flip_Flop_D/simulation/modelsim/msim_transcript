@@ -1,0 +1,39 @@
+# Reading E:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Flip_Flop_D_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying E:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {E:/altera/Small Circuits/Flip_Flop_D/Flip_Flop_D.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Flip_Flop_D
+# -- Compiling architecture Flip_Flop_D_Arch of Flip_Flop_D
+# 
+vsim work.flip_flop_d
+# vsim work.flip_flop_d 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.flip_flop_d(flip_flop_d_arch)
+add wave -position end  sim:/flip_flop_d/B
+add wave -position end  sim:/flip_flop_d/Q
+add wave -position end  sim:/flip_flop_d/Clock
+force -freeze sim:/flip_flop_d/B 0 0, 1 {25 ps} -r 50
+force -freeze sim:/flip_flop_d/Clock 0 0, 1 {50 ps} -r 100
+run
+run
+run
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/flip_flop_d/Clock 0 0, 1 {12 ps} -r 25
+force -freeze sim:/flip_flop_d/B 0 0, 1 {25 ps} -r 50
+run
+run

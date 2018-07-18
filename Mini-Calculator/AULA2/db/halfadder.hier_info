@@ -1,0 +1,11 @@
+|halfadder
+A => w_WIRE_1.IN0
+A => w_WIRE_3.IN0
+B => w_WIRE_1.IN1
+B => w_WIRE_3.IN1
+C => w_WIRE_2.IN1
+C => Sum.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+

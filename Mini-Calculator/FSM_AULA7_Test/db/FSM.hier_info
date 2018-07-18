@@ -1,0 +1,8 @@
+|FSM
+clock => EA~1.DATAIN
+reset => EA~3.DATAIN
+counter[0] <= counter.DB_MAX_OUTPUT_PORT_TYPE
+counter[1] <= counter.DB_MAX_OUTPUT_PORT_TYPE
+counter[2] <= counter.DB_MAX_OUTPUT_PORT_TYPE
+
+

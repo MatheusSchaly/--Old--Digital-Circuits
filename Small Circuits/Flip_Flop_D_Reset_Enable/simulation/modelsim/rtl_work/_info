@@ -1,0 +1,40 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\altera\Small Circuits\Flip_Flop_D_Reset_Enable\simulation\modelsim
+Eflip_flop_d_reset_enable
+Z1 w1531929995
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dE:\altera\Small Circuits\Flip_Flop_D_Reset_Enable\simulation\modelsim
+Z5 8E:/altera/Small Circuits/Flip_Flop_D_Reset_Enable/Flip_Flop_D_Reset_Enable.vhd
+Z6 FE:/altera/Small Circuits/Flip_Flop_D_Reset_Enable/Flip_Flop_D_Reset_Enable.vhd
+l0
+L4
+V>YoWK]>EH]3aJGH=dV0U60
+!s100 NLi`8d6n:76^V:Gn7d@_`2
+Z7 OV;C;10.1d;51
+31
+!i10b 1
+Z8 !s108 1531930073.125000
+Z9 !s90 -reportprogress|300|-93|-work|work|E:/altera/Small Circuits/Flip_Flop_D_Reset_Enable/Flip_Flop_D_Reset_Enable.vhd|
+Z10 !s107 E:/altera/Small Circuits/Flip_Flop_D_Reset_Enable/Flip_Flop_D_Reset_Enable.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+Aflip_flop_d_reset_enable_arch
+R2
+R3
+DEx4 work 24 flip_flop_d_reset_enable 0 22 >YoWK]>EH]3aJGH=dV0U60
+l14
+L13
+VloXG2Z7U4]GnjZQhkRKTi3
+!s100 l=mM0HNImMKHkJbhDIZDn2
+R7
+31
+!i10b 1
+R8
+R9
+R10
+R11
+R12

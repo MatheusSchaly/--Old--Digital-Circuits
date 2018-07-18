@@ -1,0 +1,359 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\altera\UFSC\AULA9\simulation\modelsim
+Ec1
+Z1 w1531407267
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dE:\altera\UFSC\AULA9\simulation\modelsim
+Z7 8E:/altera/UFSC/AULA9/c1.vhd
+Z8 FE:/altera/UFSC/AULA9/c1.vhd
+l0
+L5
+VZo0VZmL=;^@mW9=3UhmKV2
+Z9 OV;C;10.1d;51
+31
+Z10 !s108 1531767149.511000
+Z11 !s90 -reportprogress|300|-93|-work|work|E:/altera/UFSC/AULA9/c1.vhd|
+Z12 !s107 E:/altera/UFSC/AULA9/c1.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+!s100 cG[CiYWQgmOLW;ZTe6U9S3
+!i10b 1
+Acircuito
+R2
+R3
+R4
+R5
+DEx4 work 2 c1 0 22 Zo0VZmL=;^@mW9=3UhmKV2
+l13
+L12
+VP8kWkXST@naU8hcN3G7kX1
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 X6ZW[55Ng[bMWK`Ym5@T<0
+!i10b 1
+Ec2
+Z15 w1531407276
+R4
+R5
+R6
+Z16 8E:/altera/UFSC/AULA9/c2.vhd
+Z17 FE:/altera/UFSC/AULA9/c2.vhd
+l0
+L4
+VZ0X?VdNffYM;EooFM<ho^0
+R9
+31
+Z18 !s108 1531767149.718000
+Z19 !s90 -reportprogress|300|-93|-work|work|E:/altera/UFSC/AULA9/c2.vhd|
+Z20 !s107 E:/altera/UFSC/AULA9/c2.vhd|
+R13
+R14
+!s100 A`f=L7_mMn7X^E3GA@<FN3
+!i10b 1
+Acircuito
+R4
+R5
+DEx4 work 2 c2 0 22 Z0X?VdNffYM;EooFM<ho^0
+l12
+L11
+VdlP:;P;K5aa25k7EQo1UY2
+R9
+31
+R18
+R19
+R20
+R13
+R14
+!s100 bHIIjBnlm29S31WSIjhI02
+!i10b 1
+Ed_4ff
+Z21 w1531414741
+R4
+R5
+R6
+Z22 8E:/altera/UFSC/AULA9/D_4FF.vhd
+Z23 FE:/altera/UFSC/AULA9/D_4FF.vhd
+l0
+L4
+V[L<dAa0Y@_:iJOA8N2C^O3
+R9
+31
+Z24 !s108 1531767149.065000
+Z25 !s90 -reportprogress|300|-93|-work|work|E:/altera/UFSC/AULA9/D_4FF.vhd|
+Z26 !s107 E:/altera/UFSC/AULA9/D_4FF.vhd|
+R13
+R14
+!s100 A?09U5Bmh2a2BHaozz_ak3
+!i10b 1
+Abehv
+R4
+R5
+DEx4 work 5 d_4ff 0 22 [L<dAa0Y@_:iJOA8N2C^O3
+l12
+L11
+VUDhz`QXVoC?FO8<k3MHV61
+R9
+31
+R24
+R25
+R26
+R13
+R14
+!s100 fa]NaM4WQ8n]azcZe]n0m0
+!i10b 1
+Ed_8ff
+Z27 w1531414789
+R4
+R5
+R6
+Z28 8E:/altera/UFSC/AULA9/D_8FF.vhd
+Z29 FE:/altera/UFSC/AULA9/D_8FF.vhd
+l0
+L4
+VGE8zEUC<m;aP;?^e::SIH2
+R9
+31
+Z30 !s108 1531767148.893000
+Z31 !s90 -reportprogress|300|-93|-work|work|E:/altera/UFSC/AULA9/D_8FF.vhd|
+Z32 !s107 E:/altera/UFSC/AULA9/D_8FF.vhd|
+R13
+R14
+!s100 jEf3l3@U`Y^@9>WJZAg=E2
+!i10b 1
+Abehv
+R4
+R5
+DEx4 work 5 d_8ff 0 22 GE8zEUC<m;aP;?^e::SIH2
+l12
+L11
+VD6PiGV5V2D=>J_7c:<@2_1
+R9
+31
+R30
+R31
+R32
+R13
+R14
+!s100 b6RZ^T?B2^Wf0bOkWnXDJ0
+!i10b 1
+Edecod7seg
+Z33 w1531745873
+R4
+R5
+R6
+Z34 8E:/altera/UFSC/AULA9/Decod7seg.vhd
+Z35 FE:/altera/UFSC/AULA9/Decod7seg.vhd
+l0
+L4
+V`R13Nze93Zh^L[N2LdBPk2
+R9
+31
+Z36 !s108 1531767148.732000
+Z37 !s90 -reportprogress|300|-93|-work|work|E:/altera/UFSC/AULA9/Decod7seg.vhd|
+Z38 !s107 E:/altera/UFSC/AULA9/Decod7seg.vhd|
+R13
+R14
+!s100 1V3fP:jO=TF0[oh@_`m@:1
+!i10b 1
+Adecod
+R4
+R5
+DEx4 work 9 decod7seg 0 22 `R13Nze93Zh^L[N2LdBPk2
+l12
+L10
+V7@JCQK8X>U02L`25H8EHi0
+R9
+31
+R36
+R37
+R38
+R13
+R14
+!s100 ggXR`EaQzT;`>kKL^32R?1
+!i10b 1
+Edesloc_1_bit_dir
+Z39 w1531764575
+R4
+R5
+R6
+Z40 8E:/altera/UFSC/AULA9/desloc_1_bit_dir.vhd
+Z41 FE:/altera/UFSC/AULA9/desloc_1_bit_dir.vhd
+l0
+L4
+Vj6eI=P3P11cH:ZHQ<HL`i0
+!s100 Yoc]`WYgPPVojlhN_66=[2
+R9
+31
+!i10b 1
+Z42 !s108 1531767150.048000
+Z43 !s90 -reportprogress|300|-93|-work|work|E:/altera/UFSC/AULA9/desloc_1_bit_dir.vhd|
+Z44 !s107 E:/altera/UFSC/AULA9/desloc_1_bit_dir.vhd|
+R13
+R14
+Artl
+R4
+R5
+DEx4 work 16 desloc_1_bit_dir 0 22 j6eI=P3P11cH:ZHQ<HL`i0
+l16
+L14
+V?h0;aOKa1C13^7HXBYk[h2
+!s100 GYNz61hTgl5K;7dm5Z=`>3
+R9
+31
+!i10b 1
+R42
+R43
+R44
+R13
+R14
+Edesloc_1_bit_esq
+Z45 w1531764599
+R4
+R5
+R6
+Z46 8E:/altera/UFSC/AULA9/desloc_1_bit_esq.vhd
+Z47 FE:/altera/UFSC/AULA9/desloc_1_bit_esq.vhd
+l0
+L4
+V;1=f]K@b@g3SeadjPLT6h3
+R9
+31
+Z48 !s108 1531767149.883000
+Z49 !s90 -reportprogress|300|-93|-work|work|E:/altera/UFSC/AULA9/desloc_1_bit_esq.vhd|
+Z50 !s107 E:/altera/UFSC/AULA9/desloc_1_bit_esq.vhd|
+R13
+R14
+!s100 cYG2ULbTSUFW<IZ<mA>993
+!i10b 1
+Artl
+R4
+R5
+DEx4 work 16 desloc_1_bit_esq 0 22 ;1=f]K@b@g3SeadjPLT6h3
+l16
+L14
+VN9YUE=[Wk[c3d`SQa;5mU1
+R9
+31
+R48
+R49
+R50
+R13
+R14
+!s100 Zi[60cSnWb1Hm9b>GDK2h0
+!i10b 1
+Efsmctrl
+Z51 w1531766950
+R4
+R5
+R6
+Z52 8E:/altera/UFSC/AULA9/FSCctrl.vhd
+Z53 FE:/altera/UFSC/AULA9/FSCctrl.vhd
+l0
+L4
+VNGejzzh5dkIY8GfCA6Nb_2
+R9
+31
+Z54 !s108 1531767148.451000
+Z55 !s90 -reportprogress|300|-93|-work|work|E:/altera/UFSC/AULA9/FSCctrl.vhd|
+Z56 !s107 E:/altera/UFSC/AULA9/FSCctrl.vhd|
+R13
+R14
+!s100 NRd4YmbjL=FJkG9dJC@kK1
+!i10b 1
+Afsm_beh
+R4
+R5
+DEx4 work 7 fsmctrl 0 22 NGejzzh5dkIY8GfCA6Nb_2
+l16
+L12
+VAD@jb^`_3mEK8?BVFPQ:`0
+R9
+31
+R54
+R55
+R56
+R13
+R14
+!s100 D0R7cRh4ED8ni=dDOJC9R3
+!i10b 1
+Emux4x1
+Z57 w1531408129
+R4
+R5
+R6
+Z58 8E:/altera/UFSC/AULA9/mux4x1.vhd
+Z59 FE:/altera/UFSC/AULA9/mux4x1.vhd
+l0
+L4
+VAdJ2gP>GMN`h1o5[EUR<n0
+R9
+31
+Z60 !s108 1531767149.299000
+Z61 !s90 -reportprogress|300|-93|-work|work|E:/altera/UFSC/AULA9/mux4x1.vhd|
+Z62 !s107 E:/altera/UFSC/AULA9/mux4x1.vhd|
+R13
+R14
+!s100 T017@QOo=D^NC@?z]5OXD2
+!i10b 1
+Acircuito
+R4
+R5
+DEx4 work 6 mux4x1 0 22 AdJ2gP>GMN`h1o5[EUR<n0
+l12
+L11
+V`nEeM63kN1M1FMTm4:8jE1
+R9
+31
+R60
+R61
+R62
+R13
+R14
+!s100 GUdS4ze34jB@?mcmoIz4N0
+!i10b 1
+Etop_calc
+Z63 w1531764471
+R4
+R5
+R6
+Z64 8E:/altera/UFSC/AULA9/top_calc.vhd
+Z65 FE:/altera/UFSC/AULA9/top_calc.vhd
+l0
+L4
+V98`oX1SfJibi>?D:8YTgB3
+R9
+31
+Z66 !s108 1531767148.157000
+Z67 !s90 -reportprogress|300|-93|-work|work|E:/altera/UFSC/AULA9/top_calc.vhd|
+Z68 !s107 E:/altera/UFSC/AULA9/top_calc.vhd|
+R13
+R14
+!s100 M@Sl9^mX<[eH@_8a78fHb3
+!i10b 1
+Atopo_stru
+R4
+R5
+DEx4 work 8 top_calc 0 22 98`oX1SfJibi>?D:8YTgB3
+l88
+L14
+VYzS=036Z`dgjHQa4RgKOJ1
+R9
+31
+R66
+R67
+R68
+R13
+R14
+!s100 CZ?HKY;LOHEMh_oaWMD>V3
+!i10b 1

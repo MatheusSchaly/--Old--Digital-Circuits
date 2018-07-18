@@ -1,0 +1,20 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity FSMctrl is
+	port(Clk, Rst, Enter: in std_logic;
+		  Operacao: in std_logic_vector(1 downto 0);
+		  Selecao: out std_logic_vector(1 downto 0);
+		  Enable_1, Enable_2: out std_logic
+		  );
+end FSMctrl;
+
+architecture FSM_beh of FSMctrl is
+	type states is (S0, S1, S2, S3, S4, S5, S6);
+	signal EA, PE: states;
+	signal clock: std_logic;
+	signal reset: std_logic;
+	
+begin
+	clock <= Clk;
+	

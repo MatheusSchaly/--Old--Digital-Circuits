@@ -1,0 +1,4 @@
+You have 9 inputs, 2 to select an operation (add, or, xor, not), 4 to enter a number and the 4 left to enter another number.
+There will be two outputs:
+One of them will be represented in a 9 bit binary digit, but, as it is using a mutiplexer, the result will be a 4 bit binary digit (from 0 to 15 in decimal).
+The second output will be the result of those 4 digits from the multiplexer passing through a decoder which will transform them in 15 different combinations. Those 15 combinations will be presented in a real display, they can be 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, b, C, d, E and F. Notice that if you add 1111 plus 1111, the result should be 15 plus 15 = 30. But as you have only 4 bits as output, the biggest result you can get is 15 (the F in hexadecimal). So, even though the program will not crash, it will not output the correct result (any number after the number 15). The sum 16, for example, will show as 0 and the sum 17 as 1.

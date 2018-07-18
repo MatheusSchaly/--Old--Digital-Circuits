@@ -1,0 +1,9 @@
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/multiplexer/D 111 0
+force -freeze sim:/multiplexer/C 100 0
+force -freeze sim:/multiplexer/B 010 0
+force -freeze sim:/multiplexer/A 001 0
+force -freeze sim:/multiplexer/Sel 00 0
+force -freeze sim:/multiplexer/Sel 01 100
+force -freeze sim:/multiplexer/Sel 10 200
+force -freeze sim:/multiplexer/Sel 11 300

@@ -1,0 +1,40 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\altera\Small Circuits\Encoder\simulation\modelsim
+Eencoder
+Z1 w1531921601
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dE:\altera\Small Circuits\Encoder\simulation\modelsim
+Z5 8E:/altera/Small Circuits/Encoder/Encoder.vhd
+Z6 FE:/altera/Small Circuits/Encoder/Encoder.vhd
+l0
+L4
+Vazb3kXdWUcWWWdo9@5@2F0
+!s100 2k@JSl;0KfEPL4a^_lLW03
+Z7 OV;C;10.1d;51
+31
+!i10b 1
+Z8 !s108 1531921639.901000
+Z9 !s90 -reportprogress|300|-93|-work|work|E:/altera/Small Circuits/Encoder/Encoder.vhd|
+Z10 !s107 E:/altera/Small Circuits/Encoder/Encoder.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+Aencoder_arch
+R2
+R3
+DEx4 work 7 encoder 0 22 azb3kXdWUcWWWdo9@5@2F0
+l11
+L10
+VI;a@k?aEMXFfNG?PW6^fX0
+!s100 22QAY8RkaODROgNA=aQ_m0
+R7
+31
+!i10b 1
+R8
+R9
+R10
+R11
+R12

@@ -1,0 +1,248 @@
+# Reading E:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Four_Bit_Register_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying E:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {E:/altera/Small Circuits/Four_Bit_Register/Four_Bit_Register.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Four_Bit_Register
+# -- Compiling architecture Four_Bit_Register_Arch of Four_Bit_Register
+# 
+vsim work.four_bit_register
+# vsim work.four_bit_register 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.four_bit_register(four_bit_register_arch)
+add wave -position end  sim:/four_bit_register/Q
+add wave -position end  sim:/four_bit_register/Enable
+add wave -position end  sim:/four_bit_register/Reset
+add wave -position end  sim:/four_bit_register/D
+add wave -position end  sim:/four_bit_register/Clock
+force -freeze sim:/four_bit_register/D {1011} 0
+# Value length (5) does not equal array index length (4).
+# 
+# ** Error: (vsim-4011) Invalid force value: {1011} 0.
+# 
+force -freeze sim:/four_bit_register/D 1111 0
+force -freeze sim:/four_bit_register/D 0111 0
+-freeze sim:/four_bit_register/D 1111 0
+# invalid command name "-freeze"
+force -freeze sim:/flip_flop_d_reset_enable/Clock 1 0, 0 {25 ps} -r 50
+# ** Error: (vish-4008) Object 'sim:/flip_flop_d_reset_enable/Clock' not found.
+# 
+force -freeze sim:/flip_flop_d_reset_enable/Reset 1 0, 0 {50 ps} -r 100
+# ** Error: (vish-4008) Object 'sim:/flip_flop_d_reset_enable/Reset' not found.
+# 
+force -freeze sim:/flip_flop_d_reset_enable/Enable 1 0, 0 {100 ps} -r 200
+# ** Error: (vish-4008) Object 'sim:/flip_flop_d_reset_enable/Enable' not found.
+# 
+
+-freeze sim:/four_bit_register/D 1111 0
+# invalid command name "-freeze"
+force -freeze sim:/flip_flop_d_reset_enable/Clock 1 0, 0 {25 ps} -r 50
+# ** Error: (vish-4008) Object 'sim:/flip_flop_d_reset_enable/Clock' not found.
+# 
+force -freeze sim:/flip_flop_d_reset_enable/Reset 1 0, 0 {50 ps} -r 100
+# ** Error: (vish-4008) Object 'sim:/flip_flop_d_reset_enable/Reset' not found.
+# 
+force -freeze sim:/flip_flop_d_reset_enable/Enable 1 0, 0 {100 ps} -r 200
+# ** Error: (vish-4008) Object 'sim:/flip_flop_d_reset_enable/Enable' not found.
+# 
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+-freeze sim:/four_bit_register/D 1111 0
+# invalid command name "-freeze"
+force -freeze sim:/four_bit_register/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/four_bit_register/Reset 1 0, 0 {50 ps} -r 100
+force -freeze sim:/four_bit_register/Enable 1 0, 0 {100 ps} -r 200
+
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+freeze sim:/four_bit_register/D 1111 0
+# invalid command name "freeze"
+force -freeze sim:/four_bit_register/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/four_bit_register/Reset 1 0, 0 {50 ps} -r 100
+force -freeze sim:/four_bit_register/Enable 1 0, 0 {100 ps} -r 200
+
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/four_bit_register/D 1111 0
+force -freeze sim:/four_bit_register/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/four_bit_register/Reset 1 0, 0 {50 ps} -r 100
+force -freeze sim:/four_bit_register/Enable 1 0, 0 {100 ps} -r 200
+
+run
+run
+run
+run
+run
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/four_bit_register/D 1111 0
+force -freeze sim:/four_bit_register/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/four_bit_register/Reset 1 0, 0 {50 ps} -r 100
+force -freeze sim:/four_bit_register/Enable 1 0, 0 {100 ps} -r 200
+force -freeze sim:/four_bit_register/D 1000 200
+force -freeze sim:/four_bit_register/D 0100 400
+force -freeze sim:/four_bit_register/Reset 1 400
+
+
+run -continue
+run
+run
+run
+force -freeze sim:/four_bit_register/Reset 1 0, 0 {50 ps} -r 100 -can {400}
+# Invalid time value: 400
+# ** Error: (vish-4004) The -cancel option requires a time period argument.
+# Usage: force [-freeze | -drive | -deposit] [-cancel <time>] [-repeat <time>] <object_name> {<value> [[@]<time>[<unit>]]}...
+force -freeze sim:/four_bit_register/Reset 1 0, 0 {50 ps} -r 100 -can 4
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/four_bit_register/D 1111 0
+force -freeze sim:/four_bit_register/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/four_bit_register/Reset 1 0, 0 {50 ps} -r 100
+force -freeze sim:/four_bit_register/Enable 1 0, 0 {100 ps} -r 200
+force -freeze sim:/four_bit_register/D 1000 200
+force -freeze sim:/four_bit_register/D 0100 400
+force -freeze sim:/four_bit_register/Reset 1 0, 0 {50 ps} -r 100 -can 4
+force -freeze sim:/four_bit_register/Reset 1 400
+
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/four_bit_register/D 1111 0
+force -freeze sim:/four_bit_register/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/four_bit_register/Reset 1 0, 0 {50 ps} -r 100 -can 4
+force -freeze sim:/four_bit_register/Enable 1 0, 0 {100 ps} -r 200
+force -freeze sim:/four_bit_register/D 1000 200
+force -freeze sim:/four_bit_register/D 0100 400
+force -freeze sim:/four_bit_register/Reset 1 400
+
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/four_bit_register/D 1111 0
+force -freeze sim:/four_bit_register/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/four_bit_register/Reset 1 0, 0 {50 ps} -r 100 -can 400
+force -freeze sim:/four_bit_register/Enable 1 0, 0 {100 ps} -r 200
+force -freeze sim:/four_bit_register/D 1000 200
+force -freeze sim:/four_bit_register/D 0100 400
+force -freeze sim:/four_bit_register/Reset 1 400
+
+run
+run
+run
+run
+run
+run
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/four_bit_register/D 1111 0
+force -freeze sim:/four_bit_register/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/four_bit_register/Reset 1 0, 0 {50 ps} -r 100 -can 400
+force -freeze sim:/four_bit_register/Enable 1 0, 0 {100 ps} -r 200
+force -freeze sim:/four_bit_register/D 1000 200
+force -freeze sim:/four_bit_register/D 0100 400
+force -freeze sim:/four_bit_register/Reset 1 390
+run
+run
+run
+run
+run
+run
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/four_bit_register/D 1111 0
+force -freeze sim:/four_bit_register/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/four_bit_register/Reset 1 0, 0 {50 ps} -r 100 -can 400
+force -freeze sim:/four_bit_register/Enable 1 0, 0 {100 ps} -r 200
+force -freeze sim:/four_bit_register/D 1000 200
+force -freeze sim:/four_bit_register/D 0100 400
+force -freeze sim:/four_bit_register/Reset 1 401
+run
+run
+run
+run
+run
+run
+run
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/four_bit_register/D 1111 0
+force -freeze sim:/four_bit_register/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/four_bit_register/Reset 1 0, 0 {50 ps} -r 100 -can 390 force -freeze sim:/four_bit_register/Enable 1 0, 0 {100 ps} -r 200
+# ** Error: (vsim-4012) Expected ',' separator between value/time pairs.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+force -freeze sim:/four_bit_register/D 1000 200
+force -freeze sim:/four_bit_register/D 0100 400
+force -freeze sim:/four_bit_register/Reset 1 400
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/four_bit_register/D 1111 0
+force -freeze sim:/four_bit_register/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/four_bit_register/Reset 1 0, 0 {50 ps} -r 100 -can 390 force -freeze sim:/four_bit_register/Enable 1 0, 0 {100 ps} -r 200
+# ** Error: (vsim-4012) Expected ',' separator between value/time pairs.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+force -freeze sim:/four_bit_register/D 1000 200
+force -freeze sim:/four_bit_register/D 0100 400
+force -freeze sim:/four_bit_register/Reset 1 400
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/four_bit_register/D 1111 0
+force -freeze sim:/four_bit_register/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/four_bit_register/Reset 1 0, 0 {50 ps} -r 100 -can 390 
+force -freeze sim:/four_bit_register/Enable 1 0, 0 {100 ps} -r 200
+force -freeze sim:/four_bit_register/D 1000 200
+force -freeze sim:/four_bit_register/D 0100 400
+force -freeze sim:/four_bit_register/Reset 1 400
+run
+run
+run
+run
+run
+run
+run
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/four_bit_register/D 1111 0
+force -freeze sim:/four_bit_register/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/four_bit_register/Reset 1 0, 0 {50 ps} -r 100 -can 390 
+force -freeze sim:/four_bit_register/Enable 1 0, 0 {100 ps} -r 200
+force -freeze sim:/four_bit_register/D 1000 200
+force -freeze sim:/four_bit_register/D 0100 400
+force -freeze sim:/four_bit_register/Reset 1 400
+force -freeze sim:/four_bit_register/D 1010 500
+run
+run
+run
+run
+run
+run
+run

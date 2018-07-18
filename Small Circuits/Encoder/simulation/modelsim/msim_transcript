@@ -1,0 +1,112 @@
+# Reading E:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Encoder_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying E:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {E:/altera/Small Circuits/Encoder/Encoder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Encoder
+# -- Compiling architecture Encoder_Arch of Encoder
+# 
+vsim work.encoder
+# vsim work.encoder 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.encoder(encoder_arch)
+add wave -position end  sim:/encoder/Binary
+add wave -position 0  sim:/encoder/Display_Hexa
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/decoder/Display_Hexa 1000000 0
+# ** Error: (vish-4008) Object 'sim:/decoder/Display_Hexa' not found.
+# 
+force -freeze sim:/decoder/Display_Hexa 1111001 100
+# ** Error: (vish-4008) Object 'sim:/decoder/Display_Hexa' not found.
+# 
+force -freeze sim:/decoder/Display_Hexa 0100100 200
+# ** Error: (vish-4008) Object 'sim:/decoder/Display_Hexa' not found.
+# 
+force -freeze sim:/decoder/Display_Hexa 0110000 300
+# ** Error: (vish-4008) Object 'sim:/decoder/Display_Hexa' not found.
+# 
+force -freeze sim:/decoder/Display_Hexa 0011001 400
+# ** Error: (vish-4008) Object 'sim:/decoder/Display_Hexa' not found.
+# 
+force -freeze sim:/decoder/Display_Hexa 0010010 500
+# ** Error: (vish-4008) Object 'sim:/decoder/Display_Hexa' not found.
+# 
+force -freeze sim:/decoder/Display_Hexa 0000010 600
+# ** Error: (vish-4008) Object 'sim:/decoder/Display_Hexa' not found.
+# 
+force -freeze sim:/decoder/Display_Hexa 1111000 700
+# ** Error: (vish-4008) Object 'sim:/decoder/Display_Hexa' not found.
+# 
+force -freeze sim:/decoder/Display_Hexa 0000000 800
+# ** Error: (vish-4008) Object 'sim:/decoder/Display_Hexa' not found.
+# 
+force -freeze sim:/decoder/Display_Hexa 0010000 900
+# ** Error: (vish-4008) Object 'sim:/decoder/Display_Hexa' not found.
+# 
+force -freeze sim:/decoder/Display_Hexa 0001000 1000
+# ** Error: (vish-4008) Object 'sim:/decoder/Display_Hexa' not found.
+# 
+force -freeze sim:/decoder/Display_Hexa 0000011 1100
+# ** Error: (vish-4008) Object 'sim:/decoder/Display_Hexa' not found.
+# 
+force -freeze sim:/decoder/Display_Hexa 1000110 1200
+# ** Error: (vish-4008) Object 'sim:/decoder/Display_Hexa' not found.
+# 
+force -freeze sim:/decoder/Display_Hexa 0100001 1300
+# ** Error: (vish-4008) Object 'sim:/decoder/Display_Hexa' not found.
+# 
+force -freeze sim:/decoder/Display_Hexa 0000110 1400
+# ** Error: (vish-4008) Object 'sim:/decoder/Display_Hexa' not found.
+# 
+force -freeze sim:/decoder/Display_Hexa 0001110 1500
+# ** Error: (vish-4008) Object 'sim:/decoder/Display_Hexa' not found.
+# 
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/encoder/Display_Hexa 1000000 0
+force -freeze sim:/encoder/Display_Hexa 1111001 100
+force -freeze sim:/encoder/Display_Hexa 0100100 200
+force -freeze sim:/encoder/Display_Hexa 0110000 300
+force -freeze sim:/encoder/Display_Hexa 0011001 400
+force -freeze sim:/encoder/Display_Hexa 0010010 500
+force -freeze sim:/encoder/Display_Hexa 0000010 600
+force -freeze sim:/encoder/Display_Hexa 1111000 700
+force -freeze sim:/encoder/Display_Hexa 0000000 800
+force -freeze sim:/encoder/Display_Hexa 0010000 900
+force -freeze sim:/encoder/Display_Hexa 0001000 1000
+force -freeze sim:/encoder/Display_Hexa 0000011 1100
+force -freeze sim:/encoder/Display_Hexa 1000110 1200
+force -freeze sim:/encoder/Display_Hexa 0100001 1300
+force -freeze sim:/encoder/Display_Hexa 0000110 1400
+force -freeze sim:/encoder/Display_Hexa 0001110 1500
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

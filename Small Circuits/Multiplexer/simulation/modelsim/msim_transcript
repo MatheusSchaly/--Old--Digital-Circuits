@@ -1,0 +1,100 @@
+# Reading E:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Multiplexer_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying E:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {E:/altera/Small Circuits/Multiplexer/Multiplexer.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Multiplexer
+# -- Compiling architecture Multiplexer_Arch of Multiplexer
+# 
+vsim work.multiplexer
+# vsim work.multiplexer 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.multiplexer(multiplexer_arch)
+add wave -position end  sim:/multiplexer/A
+add wave -position end  sim:/multiplexer/B
+add wave -position end  sim:/multiplexer/C
+add wave -position end  sim:/multiplexer/D
+add wave -position end  sim:/multiplexer/Sel
+add wave -position end  sim:/multiplexer/Output
+force -freeze sim:/multiplexer/D 111 0
+force -freeze sim:/multiplexer/C 100 0
+force -freeze sim:/multiplexer/B 001 0
+force -freeze sim:/multiplexer/C 100 0
+restart -f -nolist -nowave -nobreak -novirtuals -noassertions -nofcovers -noatv
+add wave -position end  sim:/multiplexer/Sel
+add wave -position end  sim:/multiplexer/Output
+add wave -position end  sim:/multiplexer/D
+add wave -position end  sim:/multiplexer/C
+add wave -position end  sim:/multiplexer/B
+add wave -position end  sim:/multiplexer/A
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/multiplexer/D 111 0
+force -freeze sim:/multiplexer/C 100 0
+force -freeze sim:/multiplexer/B 010 0
+force -freeze sim:/multiplexer/A 001 0
+force -freeze sim:/multiplexer/Sel 1 0, 0 {50 ps} -r 100
+# Value length (1) does not equal array index length (2).
+# 
+# ** Error: (vsim-4011) Invalid force value: 1 0, 0 {50 ps}.
+# 
+run
+run
+run
+force -freeze sim:/multiplexer/Sel 00 0 -cancel 100
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/multiplexer/D 111 0
+force -freeze sim:/multiplexer/C 100 0
+force -freeze sim:/multiplexer/B 010 0
+force -freeze sim:/multiplexer/A 001 0
+force -freeze sim:/multiplexer/Sel 00 0
+force -freeze sim:/multiplexer/Sel 01 100
+force -freeze sim:/multiplexer/Sel 10 200
+force -freeze sim:/multiplexer/Sel 11 300
+
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/multiplexer/D 111 0
+force -freeze sim:/multiplexer/C 100 0
+force -freeze sim:/multiplexer/B 010 0
+force -freeze sim:/multiplexer/A 001 0
+force -freeze sim:/multiplexer/Sel 00 0
+force -freeze sim:/multiplexer/Sel 01 100
+force -freeze sim:/multiplexer/Sel 10 200
+force -freeze sim:/multiplexer/Sel 11 300
+force -freeze sim:/multiplexer/Sel 00 400
+force -freeze sim:/multiplexer/Sel 01 500
+force -freeze sim:/multiplexer/Sel 10 600
+force -freeze sim:/multiplexer/Sel 11 700
+
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/multiplexer/D 111 0
+force -freeze sim:/multiplexer/C 100 0
+force -freeze sim:/multiplexer/B 010 0
+force -freeze sim:/multiplexer/A 001 0
+force -freeze sim:/multiplexer/Sel 00 0
+force -freeze sim:/multiplexer/Sel 01 100
+force -freeze sim:/multiplexer/Sel 10 200
+force -freeze sim:/multiplexer/Sel 11 300
+run -continue

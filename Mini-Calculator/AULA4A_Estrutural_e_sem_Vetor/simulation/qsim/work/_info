@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\altera\UFSC\AULA3\simulation\qsim
+vtopo
+Z1 !s100 JZ3I^K8]bR:a?k2d7X6zK1
+Z2 I_CUENX^kXzmDcURlk5>om1
+Z3 V8?bo4NC<?5EYYkfKZ`_UG3
+Z4 dE:\altera\UFSC\AULA4A_Estrutural_e_sem_Vetor\simulation\qsim
+Z5 w1531172173
+Z6 8topo.vo
+Z7 Ftopo.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|topo.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1531172177.210000
+Z12 !s107 topo.vo|
+!s101 -O0
+vtopo_vlg_check_tst
+!i10b 1
+Z13 !s100 VQ4MeUBI7M>FZ[<_Q5_Pf0
+Z14 I^?Uf_i@MH<G5HOWWM]FYW3
+Z15 VL0U2UkL:5Y_@W9mCV]8o82
+R4
+Z16 w1531172171
+Z17 8topo.vt
+Z18 Ftopo.vt
+L0 67
+R8
+r1
+!s85 0
+31
+Z19 !s108 1531172177.462000
+Z20 !s107 topo.vt|
+Z21 !s90 -work|work|topo.vt|
+!s101 -O0
+R10
+vtopo_vlg_sample_tst
+!i10b 1
+Z22 !s100 GZb6B:Tg_9nXF;XL^U]h[1
+Z23 Ia?;MAHZPi`W1^l4]SNQSb2
+Z24 VlejBeChYQZh7N;0@R?2Zn0
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vtopo_vlg_vec_tst
+!i10b 1
+Z25 !s100 3SQBmj<Cbd<2Vf90nE85z2
+Z26 Ihho@hS;SM?n<b4ieXg4Mn0
+Z27 Vg[Kloc><0bz0KER00Db:<0
+R4
+R16
+R17
+R18
+Z28 L0 162
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

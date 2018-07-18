@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\altera\UFSC\Process_Test\simulation\qsim
+vProcess_Test
+Z1 !s100 bo@lRXh_8egA[Fa4HJ?2_3
+Z2 I2iQbj]9]`FiM<cm0j4ChK0
+Z3 VE;D0ZB?cM__k^dcUcIjnM1
+Z4 dE:\altera\UFSC\Process_Test\simulation\qsim
+Z5 w1531507363
+Z6 8Process_Test.vo
+Z7 FProcess_Test.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Process_Test.vo|
+Z10 o-work work -O0
+Z11 n@process_@test
+!i10b 1
+!s85 0
+Z12 !s108 1531507364.207000
+Z13 !s107 Process_Test.vo|
+!s101 -O0
+vProcess_Test_vlg_check_tst
+!i10b 1
+Z14 !s100 lM<18IRI3`hgFmnN^e[jI1
+Z15 IVg5LAo35c7A1HG0?9[L`62
+Z16 VFoakP;3fQ2BKQ3ej5XndT1
+R4
+Z17 w1531507362
+Z18 8Process_Test.vt
+Z19 FProcess_Test.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z20 !s108 1531507364.306000
+Z21 !s107 Process_Test.vt|
+Z22 !s90 -work|work|Process_Test.vt|
+!s101 -O0
+R10
+Z23 n@process_@test_vlg_check_tst
+vProcess_Test_vlg_sample_tst
+!i10b 1
+Z24 !s100 J@mSEA1UY9]JWc0KS47F61
+Z25 IU<CCnA[<J]9jM:OB?U38c1
+Z26 V:5d7Uj>^U[hT`Snn?g_Sg3
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@process_@test_vlg_sample_tst
+vProcess_Test_vlg_vec_tst
+!i10b 1
+!s100 A^V5LG7RgXdVg3Q;kTLEe2
+I8R=9C^QW<Fj7MZmZzgKe00
+Z28 VNfPVl8G>R?80Z9A[dBUbO2
+R4
+R17
+R18
+R19
+Z29 L0 152
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@process_@test_vlg_vec_tst

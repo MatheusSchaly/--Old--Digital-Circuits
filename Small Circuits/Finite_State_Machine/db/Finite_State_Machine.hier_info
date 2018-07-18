@@ -1,0 +1,8 @@
+|Finite_State_Machine
+Clock => CE~1.DATAIN
+Reset => CE~3.DATAIN
+Counter[0] <= Counter.DB_MAX_OUTPUT_PORT_TYPE
+Counter[1] <= Counter.DB_MAX_OUTPUT_PORT_TYPE
+Counter[2] <= Counter.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,18 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {E:/altera/UFSC/AULA8/top_calc.vhd}
+vcom -93 -work work {E:/altera/UFSC/AULA8/FSCctrl.vhd}
+vcom -93 -work work {E:/altera/UFSC/AULA8/Decod7seg.vhd}
+vcom -93 -work work {E:/altera/UFSC/AULA8/D_8FF.vhd}
+vcom -93 -work work {E:/altera/UFSC/AULA8/D_4FF.vhd}
+vcom -93 -work work {E:/altera/UFSC/AULA8/mux4x1.vhd}
+vcom -93 -work work {E:/altera/UFSC/AULA8/c1.vhd}
+vcom -93 -work work {E:/altera/UFSC/AULA8/c2.vhd}
+vcom -93 -work work {E:/altera/UFSC/AULA8/c3.vhd}
+vcom -93 -work work {E:/altera/UFSC/AULA8/c4.vhd}
+

@@ -1,0 +1,138 @@
+# Reading E:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Flip_Flop_D_Reset_Enable_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying E:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {E:/altera/Small Circuits/Flip_Flop_D_Reset_Enable/Flip_Flop_D_Reset_Enable.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Flip_Flop_D_Reset_Enable
+# -- Compiling architecture Flip_Flop_D_Reset_Enable_Arch of Flip_Flop_D_Reset_Enable
+# 
+vsim work.flip_flop_d_reset_enable
+# vsim work.flip_flop_d_reset_enable 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.flip_flop_d_reset_enable(flip_flop_d_reset_enable_arch)
+add wave -position end  sim:/flip_flop_d_reset_enable/D
+add wave -position end  sim:/flip_flop_d_reset_enable/Enable
+add wave -position end  sim:/flip_flop_d_reset_enable/Reset
+add wave -position end  sim:/flip_flop_d_reset_enable/Enable
+restart -f -nolist -nowave -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+add wave -position end  sim:/flip_flop_d_reset_enable/Q
+add wave -position end  sim:/flip_flop_d_reset_enable/Reset
+add wave -position 1  sim:/flip_flop_d_reset_enable/Enable
+add wave -position end  sim:/flip_flop_d_reset_enable/D
+add wave -position end  sim:/flip_flop_d_reset_enable/Clock
+force -freeze sim:/flip_flop_d_reset_enable/Clock 1 0, 0 {50 ps} -r 100
+run
+force -freeze sim:/flip_flop_d_reset_enable/Clock 0 0, 1 {25 ps} -r 50
+run
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/flip_flop_d_reset_enable/Clock 0 0, 1 {25 ps} -r 50
+run
+restart -f -nolist -nowave -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+add wave -position end  sim:/flip_flop_d_reset_enable/Q
+add wave -position end  sim:/flip_flop_d_reset_enable/Enable
+add wave -position end  sim:/flip_flop_d_reset_enable/Reset
+add wave -position end  sim:/flip_flop_d_reset_enable/D
+add wave -position end  sim:/flip_flop_d_reset_enable/Clock
+force -freeze sim:/flip_flop_d_reset_enable/Clock 1 0, 0 {25 ps} -r 50
+run
+force -freeze sim:/flip_flop_d_reset_enable/D U 0 -cancel 100
+run
+force -freeze sim:/flip_flop_d_reset_enable/D U 200
+run
+run
+run
+run
+run
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/flip_flop_d_reset_enable/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/flip_flop_d_reset_enable/D 1 0
+run
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/flip_flop_d_reset_enable/Clock 0 0, 1 {25 ps} -r 50
+run
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/flip_flop_d_reset_enable/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/flip_flop_d_reset_enable/D 1 50
+force -freeze sim:/flip_flop_d_reset_enable/Enable 2 100
+# ** Error: (vsim-4026) Value "2" does not represent a literal of the enumeration type.
+# ** Error: (vsim-4011) Invalid force value: 2 100.
+# 
+force -freeze sim:/flip_flop_d_reset_enable/Enable 1 200
+force -freeze sim:/flip_flop_d_reset_enable/Reset 1 50
+run
+run
+run
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/flip_flop_d_reset_enable/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/flip_flop_d_reset_enable/D 1 0
+force -freeze sim:/flip_flop_d_reset_enable/Enable 1 {}
+force -freeze sim:/flip_flop_d_reset_enable/Reset 0 0
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/flip_flop_d_reset_enable/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/flip_flop_d_reset_enable/D 1 0
+force -freeze sim:/flip_flop_d_reset_enable/Enable 1 0
+force -freeze sim:/flip_flop_d_reset_enable/Reset 0 0
+force -freeze sim:/flip_flop_d_reset_enable/Enable 0 50
+force -freeze sim:/flip_flop_d_reset_enable/Reset 1 50
+force -freeze sim:/flip_flop_d_reset_enable/Enable 1 100
+run
+run
+run
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/flip_flop_d_reset_enable/Clock 1 0, 0 {25 ps} -r 50
+
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/flip_flop_d_reset_enable/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/flip_flop_d_reset_enable/Reset 1 0, 0 {25 ps} -r 100
+force -freeze sim:/flip_flop_d_reset_enable/Enable 1 0, 0 {25 ps} -r 200
+force -freeze sim:/flip_flop_d_reset_enable/D 1 0, 0 {25 ps} -r 400
+
+run
+run
+run
+run
+force -freeze sim:/flip_flop_d_reset_enable/Clock 1 0, 0 {50 ps} -r 100
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/flip_flop_d_reset_enable/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/flip_flop_d_reset_enable/Reset 1 0, 0 {50 ps} -r 100
+force -freeze sim:/flip_flop_d_reset_enable/Enable 1 0, 0 {100 ps} -r 200
+force -freeze sim:/flip_flop_d_reset_enable/D 1 0, 0 {200ps} -r 400
+
+run
+run
+run
+run
+run
+run
+run
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/flip_flop_d_reset_enable/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/flip_flop_d_reset_enable/Reset 1 0, 0 {50 ps} -r 100
+force -freeze sim:/flip_flop_d_reset_enable/Enable 1 0, 0 {100 ps} -r 200
+force -freeze sim:/flip_flop_d_reset_enable/D 1 0, 0 {200ps} -r 400
+
+run -continue
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/flip_flop_d_reset_enable/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/flip_flop_d_reset_enable/Reset 1 0, 0 {50 ps} -r 100
+force -freeze sim:/flip_flop_d_reset_enable/Enable 1 0, 0 {100 ps} -r 200
+force -freeze sim:/flip_flop_d_reset_enable/D 1 0, 0 {200ps} -r 400
+
+run
+run
+run
+run

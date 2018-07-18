@@ -1,0 +1,475 @@
+$comment
+	File created using the following command:
+		vcd file top_calc.msim.vcd -direction
+$end
+$date
+	Tue Jul 10 16:54:52 2018
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module top_calc_vlg_vec_tst $end
+$var reg 10 ! SW [9:0] $end
+$var wire 1 " HEX0 [6] $end
+$var wire 1 # HEX0 [5] $end
+$var wire 1 $ HEX0 [4] $end
+$var wire 1 % HEX0 [3] $end
+$var wire 1 & HEX0 [2] $end
+$var wire 1 ' HEX0 [1] $end
+$var wire 1 ( HEX0 [0] $end
+$var wire 1 ) LEDR [9] $end
+$var wire 1 * LEDR [8] $end
+$var wire 1 + LEDR [7] $end
+$var wire 1 , LEDR [6] $end
+$var wire 1 - LEDR [5] $end
+$var wire 1 . LEDR [4] $end
+$var wire 1 / LEDR [3] $end
+$var wire 1 0 LEDR [2] $end
+$var wire 1 1 LEDR [1] $end
+$var wire 1 2 LEDR [0] $end
+$var wire 1 3 sampler $end
+$scope module i1 $end
+$var wire 1 4 gnd $end
+$var wire 1 5 vcc $end
+$var wire 1 6 unknown $end
+$var tri1 1 7 devclrn $end
+$var tri1 1 8 devpor $end
+$var tri1 1 9 devoe $end
+$var wire 1 : SW[8]~input_o $end
+$var wire 1 ; ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 < SW[9]~input_o $end
+$var wire 1 = SW[4]~input_o $end
+$var wire 1 > SW[0]~input_o $end
+$var wire 1 ? L0|Add0~13_sumout $end
+$var wire 1 @ L5|m[0]~3_combout $end
+$var wire 1 A SW[2]~input_o $end
+$var wire 1 B SW[6]~input_o $end
+$var wire 1 C SW[5]~input_o $end
+$var wire 1 D L0|Add0~14 $end
+$var wire 1 E L0|Add0~6 $end
+$var wire 1 F L0|Add0~9_sumout $end
+$var wire 1 G L5|m[2]~2_combout $end
+$var wire 1 H SW[7]~input_o $end
+$var wire 1 I L0|Add0~10 $end
+$var wire 1 J L0|Add0~1_sumout $end
+$var wire 1 K SW[3]~input_o $end
+$var wire 1 L L5|m[3]~0_combout $end
+$var wire 1 M L0|Add0~5_sumout $end
+$var wire 1 N SW[1]~input_o $end
+$var wire 1 O L5|m[1]~1_combout $end
+$var wire 1 P L6|F[0]~0_combout $end
+$var wire 1 Q L6|F[1]~1_combout $end
+$var wire 1 R L6|F[2]~2_combout $end
+$var wire 1 S L6|F[3]~3_combout $end
+$var wire 1 T L6|F[4]~4_combout $end
+$var wire 1 U L6|F[5]~5_combout $end
+$var wire 1 V L6|F[6]~6_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100011 !
+0(
+1'
+0&
+0%
+1$
+0#
+0"
+12
+01
+10
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+x3
+04
+15
+x6
+17
+18
+19
+0:
+0;
+0<
+0=
+1>
+1?
+1@
+0A
+0B
+1C
+0D
+1E
+1F
+1G
+0H
+0I
+0J
+0K
+0L
+0M
+1N
+0O
+0P
+1Q
+0R
+0S
+1T
+0U
+1V
+$end
+#10000
+b100100011 !
+b101100011 !
+b101000011 !
+b101010011 !
+b101011011 !
+b101011111 !
+1A
+1K
+1=
+0C
+1B
+1:
+03
+1I
+1J
+1D
+0?
+0E
+1M
+1L
+1O
+0J
+1E
+0M
+0F
+1/
+11
+1R
+1S
+0T
+1F
+1&
+1%
+0$
+#20000
+b1101011111 !
+b1101011101 !
+b1101011100 !
+b1001011100 !
+b1001010100 !
+b1001010000 !
+0>
+0N
+0A
+0K
+0:
+1<
+13
+0D
+1?
+0E
+1M
+0F
+1J
+0@
+0O
+0L
+0M
+0I
+1F
+02
+01
+0/
+1@
+1P
+0Q
+0R
+1T
+0J
+12
+1(
+0'
+0&
+1$
+0P
+1Q
+0S
+0(
+1'
+0%
+#30000
+b1000010000 !
+b1000000000 !
+b1000000010 !
+b1100000010 !
+b1100001010 !
+1N
+1K
+0=
+0B
+1:
+03
+1M
+1J
+0?
+0F
+#40000
+b100001010 !
+b100001000 !
+b1000 !
+b0 !
+0N
+0K
+0:
+0<
+13
+0M
+0J
+1O
+1L
+0@
+0G
+11
+1/
+02
+00
+0O
+0L
+0Q
+1S
+0T
+0V
+01
+0/
+0'
+1%
+0$
+0S
+1"
+0%
+#50000
+b10000000 !
+b10100000 !
+b10100001 !
+b10100101 !
+b11100101 !
+b11110101 !
+b11110111 !
+b11111111 !
+1>
+1N
+1A
+1K
+1=
+1C
+1B
+1H
+03
+1D
+1E
+1I
+1M
+1F
+1J
+1O
+1G
+1L
+1V
+11
+10
+1/
+1Q
+1R
+0"
+1'
+1&
+#60000
+b1111111 !
+b1110111 !
+0K
+0H
+13
+#70000
+b1110110 !
+b1110010 !
+b1110000 !
+b1111000 !
+0>
+0N
+0A
+1K
+03
+0D
+1?
+0M
+0F
+0J
+0E
+1M
+1@
+0O
+0G
+0L
+0I
+1F
+0V
+12
+01
+00
+0/
+1O
+1P
+0Q
+0R
+1S
+1T
+1U
+1J
+1V
+1"
+11
+1(
+0'
+0&
+1%
+1$
+1#
+1G
+0P
+0S
+0V
+0"
+10
+0(
+0%
+1L
+1S
+1V
+1"
+1/
+1%
+1Q
+1R
+0T
+0U
+0"
+1'
+1&
+0$
+0#
+#80000
+b1111001 !
+1>
+13
+1D
+0?
+1E
+0M
+0@
+1I
+0F
+02
+0O
+0S
+0J
+0V
+01
+0%
+0G
+1V
+1"
+00
+0L
+0Q
+0R
+0V
+0"
+0/
+0'
+0&
+1"
+#90000
+b1111011 !
+b1111010 !
+0>
+1N
+03
+0D
+1?
+1M
+0M
+1@
+1O
+1V
+12
+11
+0O
+1T
+1U
+0V
+0"
+01
+1$
+1#
+1P
+1S
+1"
+1(
+1%
+#100000
+b1011010 !
+b11010 !
+b1010 !
+b10 !
+b0 !
+0N
+0K
+0=
+0C
+0B
+13
+0E
+1J
+0?
+0I
+1F
+0F
+0J
+1L
+0@
+1G
+1/
+02
+10
+0G
+0L
+0P
+1Q
+1R
+0S
+0T
+0U
+00
+0/
+0(
+1'
+1&
+0%
+0$
+0#
+0Q
+0R
+0'
+0&
+#1000000

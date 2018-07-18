@@ -1,0 +1,2 @@
+You have 11 inputs, 2 to select an operation (add, or, xor, not), 4 to enter a number, 4 to enter another number, 1 to reset and the 1 left to enter.
+This calculator will do the same as the previous calculator, but now you're also able to store your last result. You can also reset to "0" if you want, and decide if you want to enter or new number or not.

@@ -1,0 +1,157 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\altera\UFSC\AULA3\simulation\qsim
+vtop_calc
+Z1 !s100 ]ClzP0oH]CO?bIQFj6NzI3
+Z2 I3:``YnPNJB@=[L6L`7_]32
+Z3 VNU29<hQOcm:=`oCD`B9:h1
+Z4 dE:\altera\UFSC\AULA5\simulation\qsim
+Z5 w1531252490
+Z6 8top_calc.vo
+Z7 Ftop_calc.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|top_calc.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1531252491.235000
+Z12 !s107 top_calc.vo|
+!s101 -O0
+vtop_calc_vlg_check_tst
+!i10b 1
+Z13 !s100 XDRUkzdkKd7:L>oJdd0Ud1
+Z14 ImjI^RUbKMWz2[OP1]5lOL0
+Z15 VgAY;CTezWz527b_401>?^2
+R4
+Z16 w1531252488
+Z17 8top_calc.vt
+Z18 Ftop_calc.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z19 !s108 1531252491.353000
+Z20 !s107 top_calc.vt|
+Z21 !s90 -work|work|top_calc.vt|
+!s101 -O0
+R10
+vtop_calc_vlg_sample_tst
+!i10b 1
+Z22 !s100 9K2kzn4eATjF1ND[D@PIz3
+Z23 I52GX@5TO]P8VG[kZZI6b90
+Z24 VH6FcW8jEIUSMC^;@S:?ja2
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vtop_calc_vlg_vec_tst
+!i10b 1
+!s100 S5LCh8PD?^ob94znHKdlY0
+IQnLa0^b[hSFk>Ubgm1V^^0
+Z25 V?GhOQCEIiN=lMoG=mBnBf2
+R4
+R16
+R17
+R18
+Z26 L0 447
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vtopo
+Z27 IR]c`6BzGcgiPk5aZHESHE1
+Z28 VWg:_:9UFOX@MNo:GO@O`Y3
+Z29 dE:\altera\UFSC\AULA4B\simulation\qsim
+Z30 w1531158969
+Z31 8topo.vo
+Z32 Ftopo.vo
+L0 31
+R8
+r1
+31
+Z33 !s90 -work|work|topo.vo|
+R10
+Z34 !s100 ;BB`KoTPi=AFH0U51k=>T0
+Z35 !s108 1531158970.654000
+Z36 !s107 topo.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vtopo_vlg_check_tst
+Z37 II[^A`<SGK@jfSE<Ne?cm13
+Z38 VL0U2UkL:5Y_@W9mCV]8o82
+R29
+Z39 w1531158967
+Z40 8topo.vt
+Z41 Ftopo.vt
+L0 65
+R8
+r1
+31
+Z42 !s108 1531158970.876000
+Z43 !s107 topo.vt|
+Z44 !s90 -work|work|topo.vt|
+R10
+Z45 !s100 B<OVWMEjQHi6dk;In5Ve03
+!i10b 1
+!s85 0
+!s101 -O0
+vtopo_vlg_sample_tst
+Z46 Imhf2fDL2S7MlVE:7hm;1?3
+Z47 Vo2jz4AgOk^Y_?ORb5CjMm0
+R29
+R39
+R40
+R41
+L0 29
+R8
+r1
+31
+R42
+R43
+R44
+R10
+Z48 !s100 QNIMQN]=PgKm1POgXVWHi0
+!i10b 1
+!s85 0
+!s101 -O0
+vtopo_vlg_vec_tst
+Z49 Iz:7dB]7M8hi2DhTkoH[R=0
+Z50 Vg[Kloc><0bz0KER00Db:<0
+R29
+R39
+R40
+R41
+Z51 L0 160
+R8
+r1
+31
+R42
+R43
+R44
+R10
+Z52 !s100 ER11DZ>A;??UDP1h5Mcn^2
+!i10b 1
+!s85 0
+!s101 -O0

@@ -1,0 +1,12 @@
+Clock ticking at every command
+
+Reset CE  NE Counter
+  0   E0  E1   001
+  1   E0  E1   001
+  0   E1  E2   010
+  0   E2  E3   011
+  0   E3  E4   100
+  0   E4  E0   101
+  0   E0  E1   001
+  0   E1  E2   010
+  1   E0  E1   001  

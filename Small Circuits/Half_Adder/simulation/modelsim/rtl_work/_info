@@ -1,0 +1,40 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\altera\Small Circuits\Half_Adder\simulation\modelsim
+Ehalf_adder
+Z1 w1531912092
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dE:\altera\Small Circuits\Half_Adder\simulation\modelsim
+Z5 8E:/altera/Small Circuits/Half_Adder/Half_Adder.vhd
+Z6 FE:/altera/Small Circuits/Half_Adder/Half_Adder.vhd
+l0
+L4
+VJXVLKZl`ElY2EC;UIZi@23
+!s100 QHUWe6U_lF]obSKA`22Y[2
+Z7 OV;C;10.1d;51
+31
+!i10b 1
+Z8 !s108 1531938309.047000
+Z9 !s90 -reportprogress|300|-93|-work|work|E:/altera/Small Circuits/Half_Adder/Half_Adder.vhd|
+Z10 !s107 E:/altera/Small Circuits/Half_Adder/Half_Adder.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+Ahalf_adder_arch
+R2
+R3
+DEx4 work 10 half_adder 0 22 JXVLKZl`ElY2EC;UIZi@23
+l13
+L12
+V`nSR_Ca`37CbH4C@gU09b2
+!s100 Sk=>XfXgR=HEX97F^fdh10
+R7
+31
+!i10b 1
+R8
+R9
+R10
+R11
+R12

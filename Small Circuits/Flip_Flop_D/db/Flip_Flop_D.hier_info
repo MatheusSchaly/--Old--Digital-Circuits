@@ -1,0 +1,6 @@
+|Flip_Flop_D
+Clock => Q~reg0.CLK
+B => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

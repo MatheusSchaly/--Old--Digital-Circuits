@@ -1,0 +1,9 @@
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/four_bit_register/D 1111 0
+force -freeze sim:/four_bit_register/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/four_bit_register/Reset 1 0, 0 {50 ps} -r 100 -can 390 
+force -freeze sim:/four_bit_register/Enable 1 0, 0 {100 ps} -r 200
+force -freeze sim:/four_bit_register/D 1000 200
+force -freeze sim:/four_bit_register/D 0100 400
+force -freeze sim:/four_bit_register/Reset 1 400
+force -freeze sim:/four_bit_register/D 1010 500

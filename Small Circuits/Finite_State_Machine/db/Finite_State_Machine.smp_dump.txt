@@ -1,0 +1,8 @@
+
+State Machine - |Finite_State_Machine|CE
+Name CE.E4 CE.E3 CE.E2 CE.E1 CE.E0 
+CE.E0 0 0 0 0 0 
+CE.E1 0 0 0 1 1 
+CE.E2 0 0 1 0 1 
+CE.E3 0 1 0 0 1 
+CE.E4 1 0 0 0 1 

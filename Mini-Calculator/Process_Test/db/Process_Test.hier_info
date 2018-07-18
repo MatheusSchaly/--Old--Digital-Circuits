@@ -1,0 +1,5 @@
+|Process_Test
+Clock => Result.DATAIN
+Result <= Clock.DB_MAX_OUTPUT_PORT_TYPE
+
+

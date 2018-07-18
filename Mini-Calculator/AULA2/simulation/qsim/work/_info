@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\altera\UFSC\AULA2\simulation\qsim
+vhalfadder
+Z1 !s100 2HEdZT53f;1B<OobBdl5i2
+Z2 IdR;Kf`Pa11CWD7oG9<`cY3
+Z3 V2LoZ3n;PY^K?VT4V9?@T61
+Z4 dE:\altera\UFSC\AULA2\simulation\qsim
+Z5 w1531096588
+Z6 8halfadder.vo
+Z7 Fhalfadder.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|halfadder.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1531096590.597000
+Z12 !s107 halfadder.vo|
+!s101 -O0
+vhalfadder_vlg_check_tst
+!i10b 1
+Z13 !s100 2;R>LP2QEgT:PKZ<kALkR3
+Z14 IFiIMf8:HCQXAeE@UK_<[92
+Z15 V<QSX1XJNI7P3;85TLJE_D0
+R4
+Z16 w1531096586
+Z17 8halfadder.vt
+Z18 Fhalfadder.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z19 !s108 1531096590.775000
+Z20 !s107 halfadder.vt|
+Z21 !s90 -work|work|halfadder.vt|
+!s101 -O0
+R10
+vhalfadder_vlg_sample_tst
+!i10b 1
+Z22 !s100 A[dlTNIE3=7[_0V[RmOB^3
+Z23 IGD>]`7UF>azbf:mXmgS`G0
+Z24 VeElCDUEQeeI@Z:G^LM3aS1
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vhalfadder_vlg_vec_tst
+!i10b 1
+Z25 !s100 G2Gl11=XKA>[C^cf`Q:Y?2
+Z26 IZo[mc8TM^9go>H5jEd4a13
+Z27 VBcAj:zo?XGFl4Fblm`;V@2
+R4
+R16
+R17
+R18
+Z28 L0 183
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

@@ -1,0 +1,9 @@
+|halfadder
+S0 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A0 => inst2.IN0
+A0 => inst.IN0
+B0 => inst2.IN1
+B0 => inst.IN1
+C0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+

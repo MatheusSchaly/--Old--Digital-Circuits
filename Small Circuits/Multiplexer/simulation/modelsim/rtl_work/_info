@@ -1,0 +1,40 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\altera\Small Circuits\Multiplexer\simulation\modelsim
+Emultiplexer
+Z1 w1531918272
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dE:\altera\Small Circuits\Multiplexer\simulation\modelsim
+Z5 8E:/altera/Small Circuits/Multiplexer/Multiplexer.vhd
+Z6 FE:/altera/Small Circuits/Multiplexer/Multiplexer.vhd
+l0
+L4
+VTY8C?A?T6dZHe^B9:U7>:0
+!s100 MVcGA7@IPn`;^TZY8>ABU2
+Z7 OV;C;10.1d;51
+31
+!i10b 1
+Z8 !s108 1531918298.400000
+Z9 !s90 -reportprogress|300|-93|-work|work|E:/altera/Small Circuits/Multiplexer/Multiplexer.vhd|
+Z10 !s107 E:/altera/Small Circuits/Multiplexer/Multiplexer.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+Amultiplexer_arch
+R2
+R3
+DEx4 work 11 multiplexer 0 22 TY8C?A?T6dZHe^B9:U7>:0
+l12
+L11
+V^0M;XafQ3CHI[SZA1jg[31
+!s100 [2z^d=gU6A`;6E_aYz2Qk0
+R7
+31
+!i10b 1
+R8
+R9
+R10
+R11
+R12

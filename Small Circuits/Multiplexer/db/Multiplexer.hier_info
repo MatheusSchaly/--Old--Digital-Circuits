@@ -1,0 +1,24 @@
+|Multiplexer
+A[0] => Output.DATAB
+A[1] => Output.DATAB
+A[2] => Output.DATAB
+B[0] => Output.DATAB
+B[1] => Output.DATAB
+B[2] => Output.DATAB
+C[0] => Output.DATAB
+C[1] => Output.DATAB
+C[2] => Output.DATAB
+D[0] => Output.DATAA
+D[1] => Output.DATAA
+D[2] => Output.DATAA
+Sel[0] => Equal0.IN0
+Sel[0] => Equal1.IN1
+Sel[0] => Equal2.IN1
+Sel[1] => Equal0.IN1
+Sel[1] => Equal1.IN0
+Sel[1] => Equal2.IN0
+Output[0] <= Output.DB_MAX_OUTPUT_PORT_TYPE
+Output[1] <= Output.DB_MAX_OUTPUT_PORT_TYPE
+Output[2] <= Output.DB_MAX_OUTPUT_PORT_TYPE
+
+

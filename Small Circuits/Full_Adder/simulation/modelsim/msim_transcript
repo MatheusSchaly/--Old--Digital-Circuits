@@ -1,0 +1,63 @@
+# Reading E:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Full_Adder_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying E:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {E:/altera/Small Circuits/Full_Adder/Full_Adder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Full_Adder
+# -- Compiling architecture Full_Adder_Arch of Full_Adder
+# 
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+# No Design Loaded!
+force -freeze sim:/half_adder/B 1 0, 0 {25 ps} -r 50
+# Dataset not found: sim
+force -freeze sim:/half_adder/A 1 0, 0 {50 ps} -r 100
+# Dataset not found: sim
+force -freeze sim:/half_adder/Cin 1 0, 0 {100 ps} -r 200
+# Dataset not found: sim
+vsim work.full_adder
+# vsim work.full_adder 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.full_adder(full_adder_arch)
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/half_adder/B 1 0, 0 {25 ps} -r 50
+# ** Error: (vish-4008) Object 'sim:/half_adder/B' not found.
+# 
+force -freeze sim:/half_adder/A 1 0, 0 {50 ps} -r 100
+# ** Error: (vish-4008) Object 'sim:/half_adder/A' not found.
+# 
+force -freeze sim:/half_adder/Cin 1 0, 0 {100 ps} -r 200
+# ** Error: (vish-4008) Object 'sim:/half_adder/Cin' not found.
+# 
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/full_adder/B 1 0, 0 {25 ps} -r 50
+force -freeze sim:/full_adder/A 1 0, 0 {50 ps} -r 100
+force -freeze sim:/full_adder/Cin 1 0, 0 {100 ps} -r 200
+run
+run
+add wave -position end  sim:/full_adder/Sum
+add wave -position end  sim:/full_adder/Cout
+add wave -position end  sim:/full_adder/Cin
+add wave -position end  sim:/full_adder/B
+add wave -position end  sim:/full_adder/A
+
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/full_adder/B 1 0, 0 {25 ps} -r 50
+force -freeze sim:/full_adder/A 1 0, 0 {50 ps} -r 100
+force -freeze sim:/full_adder/Cin 1 0, 0 {100 ps} -r 200
+run
+run
+run

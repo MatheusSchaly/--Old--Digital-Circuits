@@ -1,0 +1,5 @@
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/flip_flop_d_reset_enable/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/flip_flop_d_reset_enable/Reset 1 0, 0 {50 ps} -r 100
+force -freeze sim:/flip_flop_d_reset_enable/Enable 1 0, 0 {100 ps} -r 200
+force -freeze sim:/flip_flop_d_reset_enable/D 1 0, 0 {200ps} -r 400

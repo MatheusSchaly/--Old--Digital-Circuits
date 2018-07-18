@@ -1,0 +1,320 @@
+# Reading E:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do top_calc_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying E:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {E:/altera/UFSC/AULA9/top_calc.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity top_calc
+# -- Compiling architecture topo_stru of top_calc
+# vcom -93 -work work {E:/altera/UFSC/AULA9/FSCctrl.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FSMctrl
+# -- Compiling architecture FSM_beh of FSMctrl
+# vcom -93 -work work {E:/altera/UFSC/AULA9/Decod7seg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Decod7seg
+# -- Compiling architecture decod of Decod7seg
+# vcom -93 -work work {E:/altera/UFSC/AULA9/D_8FF.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity D_8FF
+# -- Compiling architecture behv of D_8FF
+# vcom -93 -work work {E:/altera/UFSC/AULA9/D_4FF.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity D_4FF
+# -- Compiling architecture behv of D_4FF
+# vcom -93 -work work {E:/altera/UFSC/AULA9/mux4x1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux4x1
+# -- Compiling architecture circuito of mux4x1
+# vcom -93 -work work {E:/altera/UFSC/AULA9/c1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity C1
+# -- Compiling architecture circuito of C1
+# vcom -93 -work work {E:/altera/UFSC/AULA9/c2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity C2
+# -- Compiling architecture circuito of C2
+# vcom -93 -work work {E:/altera/UFSC/AULA9/desloc_1_bit_esq.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity desloc_1_bit_esq
+# -- Compiling architecture rtl of desloc_1_bit_esq
+# vcom -93 -work work {E:/altera/UFSC/AULA9/desloc_1_bit_dir.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity desloc_1_bit_dir
+# -- Compiling architecture rtl of desloc_1_bit_dir
+# 
+vsim work.top_calc
+# vsim work.top_calc 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.top_calc(topo_stru)
+# Loading work.fsmctrl(fsm_beh)
+# Loading work.d_8ff(behv)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.c1(circuito)
+# Loading work.c2(circuito)
+# Loading work.desloc_1_bit_esq(rtl)
+# Loading work.desloc_1_bit_dir(rtl)
+# Loading work.mux4x1(circuito)
+# Loading work.d_4ff(behv)
+# Loading work.decod7seg(decod)
+add wave -position end  sim:/top_calc/HEX1
+add wave -position end  sim:/top_calc/HEX0
+add wave -position end  sim:/top_calc/LEDR
+add wave -position end  sim:/top_calc/SW
+add wave -position end  sim:/top_calc/KEY(0)
+add wave -position end  sim:/top_calc/KEY(1)
+add wave -position end  sim:/top_calc/CLOCK
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_calc/L2
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/top_calc/CLOCK 1 0, 0 {5 ps} -r 10
+force -freeze sim:/top_calc/KEY(0) 0 10
+force -freeze sim:/top_calc/KEY(1) 0 10
+force -freeze sim:/top_calc/KEY(0) 1 20
+force -freeze sim:/top_calc/KEY(1) 0 20
+force -freeze sim:/top_calc/KEY(1) 1 30
+force -freeze sim:/top_calc/SW 1000111100 40
+
+
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40 ps  Iteration: 0  Instance: /top_calc/L2
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/top_calc/CLOCK 1 0, 0 {5 ps} -r 10
+force -freeze sim:/top_calc/KEY(0) 0 10
+force -freeze sim:/top_calc/KEY(1) 0 10
+force -freeze sim:/top_calc/KEY(0) 1 20
+force -freeze sim:/top_calc/KEY(1) 0 20
+force -freeze sim:/top_calc/KEY(1) 1 30
+force -freeze sim:/top_calc/SW 0100110001 40
+force -freeze sim:/top_calc/KEY(1) 0 40
+force -freeze sim:/top_calc/SW 0100100000 50
+
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40 ps  Iteration: 0  Instance: /top_calc/L2
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/top_calc/CLOCK 1 0, 0 {5 ps} -r 10
+force -freeze sim:/top_calc/KEY(0) 0 10
+force -freeze sim:/top_calc/KEY(1) 0 10
+force -freeze sim:/top_calc/KEY(0) 1 20
+force -freeze sim:/top_calc/KEY(1) 0 20
+force -freeze sim:/top_calc/KEY(1) 1 30
+force -freeze sim:/top_calc/SW 0000110001 40
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40 ps  Iteration: 0  Instance: /top_calc/L2
+
+force -freeze sim:/top_calc/KEY(1) 0 40
+force -freeze sim:/top_calc/SW 0000100000 50
+
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/top_calc/CLOCK 1 0, 0 {5 ps} -r 10
+force -freeze sim:/top_calc/KEY(0) 0 10
+force -freeze sim:/top_calc/KEY(1) 0 10
+force -freeze sim:/top_calc/KEY(0) 1 20
+force -freeze sim:/top_calc/KEY(1) 0 20
+force -freeze sim:/top_calc/KEY(1) 1 30
+force -freeze sim:/top_calc/SW 0000110001 40
+force -freeze sim:/top_calc/KEY(1) 0 40
+force -freeze sim:/top_calc/SW 0000100000 50
+
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40 ps  Iteration: 0  Instance: /top_calc/L2
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/top_calc/CLOCK 1 0, 0 {5 ps} -r 10
+force -freeze sim:/top_calc/KEY(0) 0 10
+force -freeze sim:/top_calc/KEY(1) 0 10
+force -freeze sim:/top_calc/KEY(0) 1 20
+force -freeze sim:/top_calc/KEY(1) 0 20
+force -freeze sim:/top_calc/KEY(1) 1 30
+force -freeze sim:/top_calc/SW 1000111100 40
+
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40 ps  Iteration: 0  Instance: /top_calc/L2
+
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/top_calc/CLOCK 1 0, 0 {5 ps} -r 10
+force -freeze sim:/top_calc/KEY(0) 0 10
+force -freeze sim:/top_calc/KEY(1) 0 10
+force -freeze sim:/top_calc/KEY(0) 1 20
+force -freeze sim:/top_calc/KEY(1) 0 20
+force -freeze sim:/top_calc/KEY(1) 1 30
+force -freeze sim:/top_calc/SW 1100111100 40
+
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40 ps  Iteration: 0  Instance: /top_calc/L2
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/top_calc/CLOCK 1 0, 0 {5 ps} -r 10
+force -freeze sim:/top_calc/KEY(0) 0 10
+force -freeze sim:/top_calc/KEY(1) 0 10
+force -freeze sim:/top_calc/KEY(0) 1 20
+force -freeze sim:/top_calc/KEY(1) 0 20
+force -freeze sim:/top_calc/KEY(1) 1 30
+force -freeze sim:/top_calc/SW 0000110001 40
+force -freeze sim:/top_calc/KEY(1) 0 40
+force -freeze sim:/top_calc/SW 0000100000 50
+
+force -freeze sim:/top_calc/KEY(0) 0 80
+force -freeze sim:/top_calc/KEY(1) 0 80
+force -freeze sim:/top_calc/KEY(0) 1 90
+force -freeze sim:/top_calc/KEY(1) 0 90
+force -freeze sim:/top_calc/KEY(1) 1 100
+force -freeze sim:/top_calc/SW 1101000001 110
+
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40 ps  Iteration: 0  Instance: /top_calc/L2
+run
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/top_calc/CLOCK 1 0, 0 {5 ps} -r 10
+force -freeze sim:/top_calc/KEY(0) 0 10
+force -freeze sim:/top_calc/KEY(1) 0 10
+force -freeze sim:/top_calc/KEY(0) 1 20
+force -freeze sim:/top_calc/KEY(1) 0 20
+force -freeze sim:/top_calc/KEY(1) 1 30
+force -freeze sim:/top_calc/SW 0000110001 40
+force -freeze sim:/top_calc/KEY(1) 0 40
+force -freeze sim:/top_calc/SW 0000100000 50
+
+force -freeze sim:/top_calc/KEY(0) 0 80
+force -freeze sim:/top_calc/KEY(1) 0 80
+force -freeze sim:/top_calc/KEY(0) 1 90
+force -freeze sim:/top_calc/KEY(1) 0 90
+force -freeze sim:/top_calc/KEY(1) 1 100
+force -freeze sim:/top_calc/SW 1101001001 110
+
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ps  Iteration: 1  Instance: /top_calc/L2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40 ps  Iteration: 0  Instance: /top_calc/L2
+run
+run

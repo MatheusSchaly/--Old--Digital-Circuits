@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'FSMctrl:L0|EA.S2'
+Slack : -6.096
+TNS   : -10.892
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK'
+Slack : -3.467
+TNS   : -72.706
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK'
+Slack : -1.279
+TNS   : -13.410
+
+Type  : Slow 1100mV 85C Model Hold 'FSMctrl:L0|EA.S2'
+Slack : 3.157
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK'
+Slack : -0.724
+TNS   : -35.614
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'FSMctrl:L0|EA.S2'
+Slack : 0.429
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'FSMctrl:L0|EA.S2'
+Slack : -6.224
+TNS   : -11.193
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK'
+Slack : -3.679
+TNS   : -74.068
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK'
+Slack : -1.575
+TNS   : -18.415
+
+Type  : Slow 1100mV 0C Model Hold 'FSMctrl:L0|EA.S2'
+Slack : 3.137
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK'
+Slack : -0.724
+TNS   : -35.780
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'FSMctrl:L0|EA.S2'
+Slack : 0.381
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'FSMctrl:L0|EA.S2'
+Slack : -2.016
+TNS   : -3.384
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK'
+Slack : -0.978
+TNS   : -14.303
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK'
+Slack : -0.560
+TNS   : -4.358
+
+Type  : Fast 1100mV 85C Model Hold 'FSMctrl:L0|EA.S2'
+Slack : 1.405
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK'
+Slack : -0.084
+TNS   : -2.567
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'FSMctrl:L0|EA.S2'
+Slack : 0.450
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'FSMctrl:L0|EA.S2'
+Slack : -1.863
+TNS   : -3.143
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK'
+Slack : -0.795
+TNS   : -10.439
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK'
+Slack : -0.623
+TNS   : -6.407
+
+Type  : Fast 1100mV 0C Model Hold 'FSMctrl:L0|EA.S2'
+Slack : 1.347
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK'
+Slack : -0.085
+TNS   : -2.632
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'FSMctrl:L0|EA.S2'
+Slack : 0.454
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,46 @@
+# Reading E:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Latch_D_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying E:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {E:/altera/Small Circuits/Latch_D/Latch_D.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Latch_D
+# -- Compiling architecture Latch_D_Arch of Latch_D
+# 
+vsim work.latch_d
+# vsim work.latch_d 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.latch_d(latch_d_arch)
+add wave -position end  sim:/latch_d/A
+add wave -position 0  sim:/latch_d/Q
+add wave -position end  sim:/latch_d/B
+force -freeze sim:/latch_d/B 1 0, 0 {25 ps} -r 50
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/latch_d/A 1 0, 0 {25 ps} -r 50
+force -freeze sim:/latch_d/B 1 0, 0 {50 ps} -r 100
+run
+run
+run
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/latch_d/A 0 0, 1 {25 ps} -r 50
+force -freeze sim:/latch_d/B 0 0, 1 {50 ps} -r 100
+run
+run
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/latch_d/B 0 0, 1 {25 ps} -r 50
+force -freeze sim:/latch_d/A 0 0, 1 {50 ps} -r 100
+run
+run

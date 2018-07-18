@@ -1,0 +1,6 @@
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+force -freeze sim:/finite_state_machine/Clock 1 0, 0 {25 ps} -r 50
+force -freeze sim:/finite_state_machine/Reset 0 0
+force -freeze sim:/finite_state_machine/Reset 1 50
+force -freeze sim:/finite_state_machine/Reset 0 100
+force -freeze sim:/finite_state_machine/Reset 1 400

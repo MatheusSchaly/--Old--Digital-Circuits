@@ -1,0 +1,40 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\altera\Small Circuits\Finite_State_Machine\simulation\modelsim
+Efinite_state_machine
+Z1 w1531936585
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dE:\altera\Small Circuits\Finite_State_Machine\simulation\modelsim
+Z5 8E:/altera/Small Circuits/Finite_State_Machine/Finite_State_Machine.vhd
+Z6 FE:/altera/Small Circuits/Finite_State_Machine/Finite_State_Machine.vhd
+l0
+L4
+VEaEURkTFc6R^<ClDB]L:F2
+!s100 O72aj2KFa9]moeoQJSFFS3
+Z7 OV;C;10.1d;51
+31
+!i10b 1
+Z8 !s108 1531937185.675000
+Z9 !s90 -reportprogress|300|-93|-work|work|E:/altera/Small Circuits/Finite_State_Machine/Finite_State_Machine.vhd|
+Z10 !s107 E:/altera/Small Circuits/Finite_State_Machine/Finite_State_Machine.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+Afinite_state_machine_arch
+R2
+R3
+DEx4 work 20 finite_state_machine 0 22 EaEURkTFc6R^<ClDB]L:F2
+l15
+L11
+VK`DgBfkbD=0_Vz8b2JjFT2
+!s100 dfAclDdThh@?YS<`BVba?3
+R7
+31
+!i10b 1
+R8
+R9
+R10
+R11
+R12

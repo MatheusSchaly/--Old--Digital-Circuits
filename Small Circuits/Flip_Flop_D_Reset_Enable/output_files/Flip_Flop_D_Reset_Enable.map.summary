@@ -1,0 +1,18 @@
+Analysis & Synthesis Status : Successful - Wed Jul 18 13:06:40 2018
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : Flip_Flop_D_Reset_Enable
+Top-level Entity Name : Flip_Flop_D_Reset_Enable
+Family : Cyclone IV GX
+Total logic elements : 1
+    Total combinational functions : 1
+    Dedicated logic registers : 1
+Total registers : 1
+Total pins : 5
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total GXB Receiver Channel PCS : 0
+Total GXB Receiver Channel PMA : 0
+Total GXB Transmitter Channel PCS : 0
+Total GXB Transmitter Channel PMA : 0
+Total PLLs : 0
