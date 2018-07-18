@@ -1,5 +1,5 @@
 # Digital-Circuits
-Half Adder, Full Adder, Multiplexer, Encoder, Decoder, Flip Flop, Latch, Register, FSM and Mini-Calculator Project
+Half Adder, Full Adder, Multiplexer, Encoder, Decoder, Flip Flop, Latch, Register, FSM and Mini-Calculator project.
 
 Every small circuit at the <b> Small Circuits </b> folder has the <b> VHDL </b> commands to create the circuit as well as two txt files, one containing the circuit <b> Truth Table </b>, and another containing a <b> Script </b>.
 To use the Script file -> Open the QPF file that you want (Half_Adder for example) -> Click on RTL Simulation to open ModelSim -> (Inside ModelSim) -> Library -> Work -> half_adder -> Drag the Objects to the Wave -> Copy the Script from Script file -> Paste it on ModelSim’s Transcript tab -> Run (F9).
